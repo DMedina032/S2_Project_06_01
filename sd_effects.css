@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 4
+   Case Problem 1
+   
+   Star Dust Stories Design Styles
+   Author: Dajah Medina
+   Date:   11.6.18   
+
+   Filename: sd_effects.css
+
+*/
+
+/* HTML Styles */
+html img {
+    background: url(sd_back1.png);
+    width: 100%;
+    background-image: fixed;
+}
+
+/* Body Styles */
+body ol {
+    background: url(sd_back2.png);
+    background: radial-gradient(circle closest-corner at 40%, 70% white 15%, rgba(151, 151, 151, 0.5) 50%), ;
+    background: radial-gradient(closest-corner at)
+}
+
+/* Navigation List Styles */
+
+
+
+
+/* Section Left Styles */
+
+
+
+
+/* Footer Styles */
