@@ -14,21 +14,28 @@
 */
 
 /* HTML Styles */
-html img {
-    background: url(sd_back1.png);
-    width: 100%;
-    background-image: fixed;
+html {
+    background: url(sd_back1.png) fixed;
+    background-size: 100%;
+
+
 }
 
 /* Body Styles */
-body ol {
-    background: url(sd_back2.png);
-    background: radial-gradient(circle closest-corner at 40%, 70% white 15%, rgba(151, 151, 151, 0.5) 50%), ;
-    background: radial-gradient(closest-corner at)
+body {
+    background: url(sd_back2.png),
+        radial-gradient(circle closest-corner at 40% 70%, white 15%, rgba(151, 151, 151, 0.5) 50%),
+        radial-gradient(circle closest-corner at 80% 40%, white 15%, rgba(0, 0, 0, 0) 30%),
+        radial-gradient(circle closest-side at 10% 20%, white 20%, rgba(0, 0, 0, 0) 45%),
+        radial-gradient(5% 5% at 90% 10%, white 15%, rgba(0, 0, 0, 0) 40%);
+    background-color: rgb(151, 151, 151, );
+    box-shadow: rgb(31, 31, 31) 30px 0px 45px, rgb(31, 31, 31) -30px 0px 45px;
 }
 
 /* Navigation List Styles */
-
+body>header a {
+    border: outset 5px rgb(221, 221, 255);
+}
 
 
 
