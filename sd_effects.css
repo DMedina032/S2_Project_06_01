@@ -14,6 +14,7 @@
 */
 
 /* HTML Styles */
+/* For the html background I added a url to have the picture set as the background with the background size of 100% to fit the whole page */
 html {
     background: url(sd_back1.png) fixed;
     background-size: 100%;
@@ -22,17 +23,19 @@ html {
 }
 
 /* Body Styles */
+/* I then added in a gradient for the closest cornner of the page set at 40 1and 70% with the color of the graient set to white and 15% and a rgba. I did the same thing again, I changed the percenteges and the rgbas. 2 more times too. */
 body {
     background: url(sd_back2.png),
         radial-gradient(circle closest-corner at 40% 70%, white 15%, rgba(151, 151, 151, 0.5) 50%),
         radial-gradient(circle closest-corner at 80% 40%, white 15%, rgba(0, 0, 0, 0) 30%),
         radial-gradient(circle closest-side at 10% 20%, white 20%, rgba(0, 0, 0, 0) 45%),
         radial-gradient(5% 5% at 90% 10%, white 15%, rgba(0, 0, 0, 0) 40%);
-    background-color: rgb(151, 151, 151, );
+    background-color: rgb(151, 151, 151);
     box-shadow: rgb(31, 31, 31) 30px 0px 45px, rgb(31, 31, 31) -30px 0px 45px;
 }
 
 /* Navigation List Styles */
+/* I nested the heder in the body and ancored it. I then gave it a border with an outset of 5px and an rgb */
 body>header a {
     border: outset 5px rgb(221, 221, 255);
 }
@@ -40,8 +43,21 @@ body>header a {
 
 
 /* Section Left Styles */
+/* for the h1 I added a color of rgb set to 211 3 times and a text-shadow of 0px 0px and 5px. I then added a id of mportrait with the webkit filter and a drop shadow set to it, and rgba and grayscle with an opacity. lastly I fliped the picture by rotating 180 degrees.  */
+h1 {
+    color: rgb(211, 211, 211);
+    text-shadow: 0px 0px 5px;
+}
 
-
-
+#mportrait {
+    -webkit-filter: drop-shadow(-15px 0px 5px rgba(51, 51, 51, 0.9)) grayscale(0.7) opacity(0.6);
+    filter: drop-shadow(-15px 0px 5px rgba(51, 51, 51, 0.9)) grayscale(0.7) opacity(0.6);
+    transform: rotateY(180deg);
+}
 
 /* Footer Styles */
+/* Lastly, I added a footer tag with a border of 2px solid, and the color set to rgb all three set to 171. */
+footer {
+    border: 2px solid;
+    color: rgb(171, 171, 171);
+}
